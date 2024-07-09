@@ -23,14 +23,6 @@ body:
       placeholder: foo@bar.com
     validations:
       required: true
-  - type: input
-    id: team-emails
-    attributes:
-      label: Email Addresses of Team Members
-      description: Enter the email addresses of you team members separated by commas (if you have any)
-      placeholder: foo1@bar.com, foo2@bar.com, foo3@bar.com,...
-    validations:
-      required: false
   - type: textarea
     id: description
     attributes:
