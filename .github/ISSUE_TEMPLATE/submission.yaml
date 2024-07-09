@@ -23,22 +23,6 @@ body:
       placeholder: foo@bar.com
     validations:
       required: true
-  - type: textarea
-    id: description
-    attributes:
-      label: Project Description
-      description: What have you built during the hackathon?
-      placeholder: The project I created is...
-    validations:
-      required: true
-  - type: textarea
-    id: inspiration
-    attributes:
-      label: Inspiration behind the Project
-      description: What is the story behind this project? Why did you choose to work on this specific idea?
-      placeholder: The reason I chose this idea/project was...
-    validations:
-      required: true
   - type: input
     id: project-link
     attributes:
