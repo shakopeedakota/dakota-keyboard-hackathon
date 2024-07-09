@@ -47,26 +47,6 @@ body:
       placeholder: The reason I chose this idea/project was...
     validations:
       required: true
-  - type: textarea
-    id: tech-stack
-    attributes:
-      label: Tech Stack
-      description: How have you built this project? Mention the technologies/methods/platforms you used to build your project
-      placeholder: The technologies I used...
-    validations:
-      required: true
-  - type: dropdown
-    id: track
-    attributes:
-      label: Hackathon Track
-      description: What hackathon track are you opting in?
-      options:
-        - Track 1
-        - Track 2
-        - Track 3
-        - Track 4
-    validations:
-      required: true
   - type: input
     id: project-link
     attributes:
